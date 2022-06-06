@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宫崎骏及其作品介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .d1 {
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-style: oblique;
+            width: 200px;
+            height: 40px;
+            float: right;
+            text-align: center;
+            border-bottom: 2px dashed greenyellow;
+        }
+
+        .d1:hover {
+            background-color: greenyellow;
+            font-size: 40px;
+        }
+
+        .d1:active {
+            font-style: normal;
+            font-weight: bolder;
+            background-color: white;
+        }
+
+        .page-header {
+            color: brown;
+            font-size: xx-large;
+            height: 50px;
+            clear: both;
+            text-align: center;
+        }
+
+        .jumbotron {
+            text-align: center;
+        }
+
+        .button {
+            font-size: 30px;
+            background-color: antiquewhite;
+            width: 180px;
+            height: 50px;
+            border-radius: 10px;
+            float: right;
+        }
+
+        .x {
+            clear: both;
+            color: aquamarine;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .tupian {
+            float: left;
+            margin-top: 50px;
+            margin-left: 20px;
+            
+        }
+        .content {
+            width: 1100px;
+            height: 900px;
+            float:left;
+        }
+        .hudong{
+            width: 300px;
+            height: 900px;
+            float:left;
+        }
+        .box {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            transform-style: preserve-3d;
+            transition: all 2s;
+        }
+        .box:hover{
+            transform: rotateY(180deg);
+        }
+        .front,.back{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            line-height: 300px;
+        }
+        .front{
+            background-color: pink;
+            backface-visibility: hidden;
+            font-size: 15px;
+            z-index: 1;
+        }
+        .back{
+            background-color: plum;
+            font-size: 20px;
+            transform: rotateY(180deg);
+        }
+        h2{
+            color:aqua;
+        }
+        h3{
+            font-weight: bolder;
+        }
+        pre{
+            font-size: 20px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .footer{
+            clear: both;
+            width: 1400px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body background="images\3.jpg">
+    <div>
+        <div class="d1"><a href="dm5.html">情况调查</a></div>
+        <div class="d1"><a href="dm4.html">天空之城</a></div>
+        <div class="d1"><a href="dm3.html">起风了</a></div>
+        <div class="d1"><a href="dm2.html">龙猫</a></div>
+        <div class="d1"><a href="dm1.html">千与千寻</a></div>
+        <div class="d1"><a href="index.html">首页</a></div>
+    </div>
+    <div class="page-header">
+        <p>动漫人物合集</p>
+    </div>
+    <div class="jumbotron">
+        <img src="images\1.jpg" alt="">
+    </div>
+    <div class="jumbotron">
+        <img src="images\5.jpg" alt="">
+    </div>
+    <div><a href="learnmore.html" class="button">Learn more</a></div>
+    <div class="x">
+        <h1>图片欣赏</h1>
+    </div>
+    <div class="large">
+        <div class="content">
+            <div class="tupian"><img src="images\1.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\2.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\3.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\4.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\5.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\6.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\7.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\8.gif" alt="" width="300px" height="200px"></div>
+            <div class="tupian"><img src="images\9.gif" alt="" width="300px" height="200px"></div>
+        </div>
+        <div class="hudong">
+            <h2>测测你的了解度</h2>
+            <div class="box">
+                <div class="front">《哈尔的移动城堡》中哈尔的配音声优是谁？</div>
+                <div class="back">木村拓哉</div>
+            </div>
+            <div class="box">
+                <div class="front">千寻和白龙的结局？</div>
+                <div class="back">分开</div>
+            </div>
+            <div class="box">
+                <div class="front">阿莉埃蒂临走前给了翔什么东西？</div>
+                <div class="back">小夹子</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>动漫的意义</h3>
+        <pre>
+    主题是一部动漫作品的核心和灵魂。作为动漫大国的日本,宫崎骏无疑有着指向性的意义,他的动漫作品之所以能够经久而不衰,他个人化的主题表达是
+一个很重要的原因,他在主题选择上有其独特的角度和魅力,在他的作品中,关于爱的主题始终不断地贯穿,形成了他个人化的风格表现。这对于正在试图建设
+成为动漫大国的中国的动漫创作提供了一个启示。
+    宫崎峻的每部作品，题材虽然不同，但却将梦想、环保、人生、生存、和平主义、女权运动这些令人反思的讯息，融合其中。他这份执著，不单令全球
+人产生共鸣，更受到全世界所重视，连美国动画王国迪士尼，都要斟介宫崎骏的动画电影发行版权。宫崎峻在全球动画界具有无可替代的地位，迪斯尼称其
+为“动画界的黑泽明”。
+</pre>
+    </div>
+</body>
+
+</html>
